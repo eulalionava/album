@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <title>Red Social</title>
+
+</head>
+<body class="bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col py-4 text-center">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione laborum qui illo hic quae explicabo, sapiente sint accusantium nemo. Saepe nihil aspernatur veritatis similique expedita totam corporis accusamus placeat a.
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-8 order-2 order-md-1">
+                <h4 class="mb-3">Direccion de envio</h4>
+                <form action="">
+                    <div class="row">
+                        <div class="col-12 col-md-6 mb-2">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" name="nombre">
+                        </div>
+                        <div class="col-12 col-md-6 mb-2">
+                            <label for="apellido">Apellido</label>
+                            <input type="text" class="form-control" id="apellido" name="apellido">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="usuario">Usuario</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">@</span>
+                            </div>
+                            <input type="text" id="usuario" name="usuario" class="form-control">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="correo">Correo <span class="text-muted">(Opcional)</span></label>
+                        <input type="email" placeholder="ejemplo@gmail.com" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="direccion">Direccion</label>
+                        <input type="text" placeholder="Direccion" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="correo">Direccion2</label>
+                        <input type="text" placeholder="datos extras" class="form-control">
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-4 mb-3">
+                            <label for="">Pais</label>
+                            <select name="" id="" class="custom-select d-block w-100">
+                                <option value="">Seleccione pais</option>
+                                <option value="mexico">mexico</option>
+                                <option value="canada">canada</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <label for="">Estado</label>
+                            <select name="" id="" class="custom-select d-block w-100">
+                                <option value="">Seleccione estado</option>
+                                <option value="mexico">mexico</option>
+                                <option value="canada">canada</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <label for="">codigo postal</label>
+                            <input type="text" placeholder="codigo postal" class="form-control">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="guardar">
+                        <label for="guardar" class="custom-control-label">Enviar a la misma direccion</label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="enviar">
+                        <label for="enviar" class="custom-control-label">Giardar informacion</label>
+                    </div>
+                    <hr class="mb-4">
+                    <div class="d-block mb-3">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" name="metodo" class="custom-control-input" id="credito" checked>
+                            <label for="credito" class="custom-control-label">Tarjeta credito</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" name="metodo" class="custom-control-input" id="debito" >
+                            <label for="debito" class="custom-control-label">Tarjeta debito</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" name="metodo" class="custom-control-input" id="paypal" >
+                            <label for="paypal" class="custom-control-label">Paypal</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-6 mb-3">
+                            <label for="nombre-tarjeta">Nombre de tarjeta</label>
+                            <input type="text" id="nombre-tarjeta" class="form-control">
+                        </div>
+                        <div class="col-12 col-sm-6 mb-3">
+                            <label for="numero-tarjeta">Numero de tarjeta</label>
+                            <input type="text" id="numero-tarjeta" class="form-control">
+                        </div>
+                    </div>
+                    <hr class="mb-3">
+                    <input type="submit" value="continuar al pago" class="btn btn-block btn-lg btn-primary">
+                </form>
+            </div>
+
+            <div class="col-12 col-md-4 order-1 order-md-2">
+                <h4 class="mb-3 d-flex justify-content-between align-items-center">
+                    <span class="text-muted">Tu carrito</span>
+                    <span class="badge badge-secondary badge-pill">5</span>
+                </h4>
+                <ul class="list-group mb-3">
+                    <li class="list-group-item d-flex justify-content-between">
+                        <div>
+                            <h6 class="my-0">Nombre del producto</h6>
+                            <small class="text-muted">Pequeña descripcion</small>
+                        </div>
+                        <span class="text-muted">$10</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between">
+                        <div>
+                            <h6 class="my-0">Nombre del producto</h6>
+                            <small class="text-muted">Pequeña descripcion</small>
+                        </div>
+                        <span class="text-muted">$10</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between">
+                        <div>
+                            <h6 class="my-0">Nombre del producto</h6>
+                            <small class="text-muted">Pequeña descripcion</small>
+                        </div>
+                        <span class="text-muted">$10</span>
+                    </li>
+                </ul>
+                <form action="" class="card p-2">
+                    <div class="input-group">
+                        <input type="text" placeholder="codigo" class="form-control">
+                        <div class="input-group-prepend">
+                            <button class="btn btn-success">Canjear</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/menu.js"></script>
+</body>
+</html>
